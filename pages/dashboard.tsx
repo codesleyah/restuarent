@@ -50,7 +50,7 @@ export default function Home() {
         {showmodal && <NewPayment onClose={()=> setShowmodal(false)}/>}
         {/* header start */}
         <div className="flex row w-full h-16 bg-red-900 items-center justify-between px-32 absolute  top-0">
-           <h1 className="text-3xl text-white font-bold">ZIMBABWEAN  TRADITIONAL FOOD</h1>
+           <h1 className="text-3xl text-white font-bold">Zim Meals Restaurant</h1>
         </div>
         {/* header end */}
        <div className="w-full h-full px-32 flex flex-col items-center justify-center">
